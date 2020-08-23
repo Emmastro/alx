@@ -8,62 +8,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
-        
+        <script src="behavior.js"></script>
     </head>
 <body class="works_on_smartphone">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=2616536741936599&autoLogAppEvents=1" nonce="hwj6F9mP"></script>
     <header>
-        <!-- Horizontal top navigation bar-->
-        <nav>
+
+        <div class="right">
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            <a href="https://twitter.com/emmamurairi?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @emmamurairi</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#it-skills">IT Skills</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
                 <li><a href="#contacts">Contacts</a></li>
               </ul>
-        </nav>
+      
     </header>
     
     <main>
     
-    <article id="introduction">
-        <img id="avatar" src="images/emmanuel.jpg" alt="Emmanuel Murairi">
-        <h1>Hi, I am Emmanuel Murairi</h1>
-        <h2>A Full stack developer</h2>
-        <p>I am experienced in Software and Web development. When I am not making businesses grow faster, I explore my passion in entrepreneurship by designing solutions for my community.</p>
-        
+    <article>
+        <div id="introduction">
+            <img id="avatar" src="images/emmanuel.jpg" alt="Emmanuel Murairi">
+            <h1>Hi, I am Emmanuel Murairi</h1>
+            <h2>A Full stack developer</h2>
+            <p>I am experienced in Software and Web development. When I am not making businesses grow faster, I explore my passion in entrepreneurship by designing solutions for my community.</p>
+            
+        </div>
+   
         <div id="portfolio">
             <h3>My previous projects</h3>
     
             <div>
                 <a href="#"><img src="images/1.png" alt=""></a>
-                <h4>Title</h4>
-                <p>Description</p>
-            </div>
-            <div>
-                <a href="#"><img src="images/2.png" alt=""></a>
-                <h4>Title</h4>
-                <p>Description</p>
-            </div>
-            <div>
-                <a href="#"><img src="images/3.png" alt=""></a>
-                <h4>Title</h4>
-                <p>Description</p>
+                <h4>Art management</h4>
+                <p>Managing which art item is available for use, especially in a school of students full of creativity. The Art Management System empowers the art department of ALA to best utilise their resources.</p>
             </div>
             <div>
                 <a href="#"><img src="images/4.png" alt=""></a>
-                <h4>Title</h4>
-                <p>Description</p>
+                <h4>Time management</h4>
+                <p>There is never a one fit all time management tool or strategy. The Time management tool, specialised to fit the programs of ALA students, creates a customised academic schedule.</p>
+            </div>
+            
+            <div>
+                <a href="#"><img src="images/2.png" alt=""></a>
+                <h4>Library Management</h4>
+                <p>School libraries are one of the resources that students struggle to the most from. The Library Management empowers students by allowing them to search, and school librarians to manage their resources.</p>
+            </div>
+            <div>
+                <a href="#"><img src="images/3.png" alt=""></a>
+                <h4>Faith Abiodun website</h4>
+                <p>Faith is an entrepreneur, project manager, international affairs analyst, writer and speaker. Today, he provides socio-political commentary for global news outlets like the BBC, South African Broadcasting Corporation and others.</p>
             </div>
             <div>
                 <a href="#"><img src="images/5.png" alt=""></a>
-                <h4>Title</h4>
-                <p>Description</p>
+                <h4>Report Compiler</h4>
+                <p>The report compiler is a software that automates the process of compiling school reports. It reduces a long and energy consuming process that last more than 2 weeks to a 10 min process,  making school more efficient and productive.</p>
             </div>
             <div>
                 <a href="#"><img src="images/6.png" alt=""></a>
-                <h4>Title</h4>
-                <p>Description</p>
+                <h4>Futuris</h4>
+                <p>Futuris is a start-up based in the Democratic Republic of Congo, providing architectural services. Their corporate website serves as a footprint of their brand, an image of their creativity and a  direct point of contact for potential clients and partners.</p>
             </div>
           
            
@@ -97,10 +108,13 @@ s.setAttribute('data-timestamp', +new Date());
                             
         </aside>
     
-        
+
     </main>
 
     <footer>
+        <div class="social-media">
+            <a href="twitter.html">Twitter</a>
+        </div>
         <p>Made by Emmanuel Murairi for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a></p>
     </footer>
 
